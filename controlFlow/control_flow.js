@@ -51,3 +51,22 @@ let authenticationStatus = isAuthenticated
   : "Not authenticated";
 
 console.log("Authentication Status:", authenticationStatus);
+
+let orgRole = "Non-Subscriber";
+let dietAccess;
+
+if (orgRole === "Employee") {
+  dietAccess = "You have access to 'Dietary Services'";
+}
+if (orgRole === "Enrolled Member") {
+  dietAccess = "Dietary Services and one-on-one interaction with a dietician";
+}
+if (orgRole === "Subscriber") {
+  dietAccess = "Partial access to facilitate 'Dietary Services' only";
+}
+if (orgRole === "Non-Subscriber") {
+  dietAccess =
+    "You need to enroll or at least subscribe first to avail this facility";
+}
+
+console.log(dietAccess);
