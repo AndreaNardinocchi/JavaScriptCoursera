@@ -36,6 +36,15 @@
       required
     ></textarea
     ><br />
+    <label for="experienceText">Experience:</label><br />
+    <textarea
+      id="experienceText"
+      rows="5"
+      cols="30"
+      placeholder="Enter your feedback here"
+      required
+    ></textarea
+    ><br />
     <button id="submitBtn">Submit Feedback</button>
     <hr />
     <div id="userInfo" style="display: none">
@@ -48,6 +57,10 @@
       <p>
         Feedback for <span id="userProductChoice"></span>:
         <span id="userFeedback"></span>
+      </p>
+      <p>
+        Share your experience <span id="userProductExperience"></span>:
+        <span id="userExperience"></span>
       </p>
     </div>
     <script src="./product_survey.js"></script>

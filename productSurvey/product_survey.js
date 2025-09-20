@@ -14,7 +14,7 @@ function submitFeedback() {
   const designation = document.getElementById("designation").value;
   const productType = document.getElementById("productType").value;
   const feedback = document.getElementById("feedbackText").value;
-
+  const experience = document.getElementById("experienceText").value;
   /*
   As the submitFeedback function will fetch the user feedback information in the second point of step 2, 
   the details should also be displayed on the web page to inform the user about the information entered.
@@ -27,6 +27,7 @@ function submitFeedback() {
   document.getElementById("userDesignation").innerHTML = designation;
   document.getElementById("userProductChoice").innerHTML = productType;
   document.getElementById("userFeedback").innerHTML = feedback;
+  document.getElementById("userExperience").innerHTML = experience;
   document.getElementById("userInfo").style.display = "block";
 }
 
