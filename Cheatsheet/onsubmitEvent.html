@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Submission Example</title>
+  </head>
+  <body>
+    <form id="myForm" onsubmit="validateForm()">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <script>
+      function validateForm() {
+        // Prevent the default form submission
+        event.preventDefault();
+
+        // Retrieve form values
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+
+        // Perform validation (for example, checking if fields are filled)
+        if (name === "" || email === "") {
+          alert("Please fill in all fields.");
+          return false; // Prevent form submission if validation fails
+        }
+
+        // If validation passes, continue with form submission
+        alert("Form submitted successfully!");
+      }
+    </script>
+  </body>
+</html>
