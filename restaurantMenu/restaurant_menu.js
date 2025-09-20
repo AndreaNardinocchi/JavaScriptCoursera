@@ -1,6 +1,21 @@
-const breakfastMenu = ["Pancakes", "Eggs Benedict", "Oatmeal", "Frittata"];
-const mainCourseMenu = ["Steak", "Pasta", "Burger", "Salmon"];
-const dessertMenu = ["Cake", "Ice Cream", "Pudding", "Fruit Salad"];
+const breakfastMenu = [
+  "Pancakes - $12",
+  "Eggs Benedict - $22.99",
+  "Oatmeal - $21.99",
+  "Frittata - $15",
+];
+const mainCourseMenu = [
+  "Steak - $30",
+  "Pasta - $15",
+  "Burger - $18",
+  "Salmon - $22",
+];
+const dessertMenu = [
+  "Cake - $20",
+  "Ice Cream - $15",
+  "Pudding - $17",
+  "Fruit Salad - $20",
+];
 
 // map
 const breakfastMenuItemsHTML = breakfastMenu
