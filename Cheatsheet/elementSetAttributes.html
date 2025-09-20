@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Styling Example</title>
+  </head>
+  <body>
+    <p id="myParagraph" style="color: red">This is a red paragraph.</p>
+    <button id="btn">Click to change Color of above paragraph</button>
+    <script>
+      const paragraph = document.getElementById("myParagraph");
+      const btn = document.getElementById("btn");
+      btn.addEventListener("click", () => {
+        paragraph.setAttribute("style", "color: blue; font-size: 18px;");
+      });
+    </script>
+  </body>
+</html>
