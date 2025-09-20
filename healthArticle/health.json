@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "title": "Global Markets Rally",
+      "description": "Stock markets around the world saw major gains today amid economic optimism.",
+      "category": "Finance",
+      "date": "2025-09-20"
+    },
+    {
+      "title": "Breakthrough in Cancer Research",
+      "description": "Scientists have announced a significant breakthrough in cancer treatment.",
+      "category": "Health",
+      "date": "2025-09-19"
+    },
+    {
+      "title": "Tech Giants Unveil New Devices",
+      "description": "Several major tech companies released their latest gadgets this week.",
+      "category": "Technology",
+      "date": "2025-09-18"
+    }
+  ]
+}
