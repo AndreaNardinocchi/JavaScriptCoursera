@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather Report</title>
+  </head>
+  <body>
+    <h1>City Weather Report</h1>
+
+    <form id="weatherForm">
+      <label for="city">Enter City:</label>
+      <input type="text" id="city" name="city" />
+      <button type="submit">Get Weather</button>
+    </form>
+
+    <div id="weatherInfo"></div>
+
+    <h1>Geoloc Weather Report</h1>
+
+    <form id="weatherFormGeo">
+      <label for="lat">Enter Latitude:</label>
+      <input type="text" id="lat" name="lat" />
+      <label for="lon">Enter Longitude:</label>
+      <input type="text" id="lon" name="lon" />
+      <button type="submit">Get Weather</button>
+    </form>
+
+    <div id="weatherInfoGeo"></div>
+    <script src="./weather_report.js"></script>
+  </body>
+</html>
